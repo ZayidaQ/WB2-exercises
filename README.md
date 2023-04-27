@@ -1,2 +1,0 @@
-# WB2-exercises
- 
