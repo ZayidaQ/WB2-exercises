@@ -35,3 +35,4 @@ Author: Zhayida
 // calculation
 
 // output
+console.log()
