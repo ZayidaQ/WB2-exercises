@@ -2,7 +2,7 @@
 Author: Zhayida
 */
 
-// ------- Area of a Rectangle -------
+// ------- Area of a Rectangle ------- //
 
 "use sprict";
 

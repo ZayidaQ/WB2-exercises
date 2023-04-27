@@ -2,7 +2,7 @@
 Author: Zhayida
 */
 
-// ------- Celsius to Fahrenheit -------
+// ------- Celsius to Fahrenheit ------- //
 
 "use sprict";
 

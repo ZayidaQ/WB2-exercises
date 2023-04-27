@@ -26,7 +26,7 @@ console.log("Total Due is $" + totalDue );
 Author: Zhayida
 */
 
-// ------- title here -------
+// ------- title here ------- //
 
 "use sprict";
 

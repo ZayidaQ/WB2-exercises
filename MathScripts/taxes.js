@@ -2,7 +2,7 @@
 Author: Zhayida
 */
 
-// ------- Federal taxes -------
+// ------- Federal taxes ------- //
 
 "use sprict";
 

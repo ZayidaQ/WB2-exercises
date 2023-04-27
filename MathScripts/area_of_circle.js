@@ -2,7 +2,7 @@
 Author: Zhayida
 */
 
-// ------- Area of a Circle -------
+// ------- Area of a Circle ------- //
 
 "use sprict";
 

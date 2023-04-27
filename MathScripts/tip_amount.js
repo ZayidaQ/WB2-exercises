@@ -2,7 +2,7 @@
 Author: Zhayida
 */
 
-// ------- Tip amount of food -------
+// ------- Tip amount of food ------- //
 
 "use sprict";
 

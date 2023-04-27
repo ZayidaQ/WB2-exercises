@@ -2,7 +2,7 @@
 Author: Zhayida
 */
 
-// ------- Rule of 72 -------
+// ------- Rule of 72 ------- //
 
 "use sprict";
 
