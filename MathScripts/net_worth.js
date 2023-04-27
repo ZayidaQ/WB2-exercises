@@ -15,3 +15,6 @@ let netWorth = assets - debt;
 
 // output
 console.log("your net worth is $" + netWorth)
+
+// Running
+// your net worth is $5966

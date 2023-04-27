@@ -14,3 +14,6 @@ let fahrenheit = (celsius * (9/5)) + 32;
 
 // output
 console.log("when the celsius equals " + celsius + " the Fahrenheit is " + Math.round(fahrenheit));
+
+// Running
+// when the celsius equals 36 the Fahrenheit is 97

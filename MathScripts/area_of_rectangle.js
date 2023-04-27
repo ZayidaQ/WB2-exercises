@@ -15,3 +15,6 @@ let areaOfRectangle = widthOfRectangle * lengthOfRectangle; // or 20 * 32
 
 // output
 console.log("The area of the rectangle is " + areaOfRectangle )
+
+// Running
+// The area of the rectangle is 640
