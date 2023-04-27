@@ -1,5 +1,3 @@
-// starting templet >>>>
-
 /*
 Author: Zhayida
 */
