@@ -1,5 +1,7 @@
 /*
+
 Author: Zhayida
+
 */
 
 // ------- Federal taxes ------- //
@@ -14,7 +16,14 @@ let salary = 6500;
 let withheldAmount = salary * federaltaxes;
 
 // output
-console.log("While making $" + salary + "amount each month, the federal taxes takes $" + withheldAmount);
+console.log(
+    "While making $" + salary + "amount each month, the federal taxes takes $" + withheldAmount
+);
 
 // Running
-// While making $6500amount each month, the federal taxes takes $1495
+
+/*
+
+While making $6500amount each month, the federal taxes takes $1495
+
+*/

@@ -1,5 +1,7 @@
 /*
+
 Author: Zhayida
+
 */
 
 // ------- fake scenario ------- //
@@ -17,4 +19,9 @@ let netWorth = assets - debt;
 console.log("your net worth is $" + netWorth)
 
 // Running
-// your net worth is $5966
+
+/*
+
+your net worth is $5966
+
+*/

@@ -1,5 +1,7 @@
 /*
+
 Author: Zhayida
+
 */
 
 // ------- Rentals ------- //
@@ -24,3 +26,13 @@ costPerPerson = Math.ceil(costPerPerson)
 console.log("we will need " + amountOfVan + " vans");
 console.log("the total cost for van rental is " + totalCost);
 console.log("each person had to pay " + costPerPerson + " for the van rental");
+
+// Running
+
+/*
+
+we will need 3 vans
+the total cost for van rental is 750
+each person had to pay 28 for the van rental
+
+*/

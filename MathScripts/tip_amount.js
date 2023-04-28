@@ -1,5 +1,7 @@
 /*
+
 Author: Zhayida
+
 */
 
 // ------- Tip amount of food ------- //
@@ -17,7 +19,12 @@ let totalAmount = tipAmount + foodBill;
 // output
 console.log(
     "The Tip on a $" + foodBill + " food bill is $" + tipAmount + " and the total amount is $" + totalAmount
-    )
+)
 
 // Running
-// The Tip on a $200 food bill is $36 and the total amount is $236
+
+/*
+
+The Tip on a $200 food bill is $36 and the total amount is $236
+
+*/
