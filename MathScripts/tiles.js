@@ -1,6 +1,6 @@
 /*
 
-Author: Zhayida
+    Author: Zhayida
 
 */
 
@@ -18,13 +18,12 @@ let boxNeeded = ( roomDimention / 12 ) * 1.1;
 
 // output
 console.log(
-    "you will need " + Math.ceil(boxNeeded) + " amount of boxes"
+    "you will need " + Math.ceil( boxNeeded ) + " amount of boxes"
 );
 
 // Running
-
 /* 
 
-you will need 69 amount of boxes 
+    You will need 69 amount of boxes 
 
 */

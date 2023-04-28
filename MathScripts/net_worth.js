@@ -1,6 +1,6 @@
 /*
 
-Author: Zhayida
+    Author: Zhayida
 
 */
 
@@ -16,12 +16,11 @@ let debt = 2079;
 let netWorth = assets - debt;
 
 // output
-console.log("your net worth is $" + netWorth)
+console.log( "your net worth is $" + netWorth )
 
 // Running
-
 /*
 
-your net worth is $5966
+    Your net worth is $5966
 
 */

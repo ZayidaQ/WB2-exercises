@@ -1,6 +1,6 @@
 /*
 
-Author: Zhayida
+    Author: Zhayida
 
 */
 
@@ -21,9 +21,8 @@ console.log(
 );
 
 // Running
-
 /*
 
-While making $6500amount each month, the federal taxes takes $1495
+    While making $6500amount each month, the federal taxes takes $1495
 
 */
