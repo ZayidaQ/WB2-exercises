@@ -23,7 +23,11 @@ console.log("Total Due is $" + totalDue );
 // starting templet >>>>
 
 /*
-Author: Zhayida
+
+Author: Zhayida Haishan
+
+Description:
+
 */
 
 // ------- title here ------- //
