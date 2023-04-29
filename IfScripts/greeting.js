@@ -16,10 +16,10 @@ let currentTime = 10;
 let message;
 
 // calculation
-if ( currentTime < 11 ){
+if (currentTime < 11){
     message = "Good Morning!"
 }
-else if ( currentTime < 17 ){
+else if (currentTime < 17){
     message = "Good Day!"
 }
 else {
@@ -27,13 +27,13 @@ else {
 }
     
 // output
-console.log( message );
+console.log(message);
 
 // Running
 /*
 
     until 10am >> Good Morning!
-    10 - 16.59 >> Good Day!
+    10 - 16 >> Good Day!
     17 and later >> Good Evening!
 
 */

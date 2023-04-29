@@ -16,7 +16,7 @@ let debt = 2079;
 let netWorth = assets - debt;
 
 // output
-console.log( "your net worth is $" + netWorth )
+console.log("your net worth is $" + netWorth)
 
 // Running
 /*

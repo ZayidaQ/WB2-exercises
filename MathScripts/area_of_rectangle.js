@@ -16,7 +16,7 @@ let lengthOfRectangle = 32;
 let areaOfRectangle = widthOfRectangle * lengthOfRectangle; // or 20 * 32
 
 // output
-console.log( "The area of the rectangle is " + areaOfRectangle );
+console.log("The area of the rectangle is " + areaOfRectangle);
 
 // Running
 /*

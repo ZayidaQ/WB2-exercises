@@ -16,28 +16,28 @@ var c = "402 Stevens";
 var d = "Number 5";
 
 // calculation using perseInt()
-console.log( "parseInt of a is " + parseInt( a ) );
-console.log( "parseInt of b is " + parseInt( b ) );
-console.log( "parseInt of c is " + parseInt( c ) );
-console.log( "parseInt of d is " + parseInt( d ) );
+console.log("parseInt of a is " + parseInt(a));
+console.log("parseInt of b is " + parseInt(b));
+console.log("parseInt of c is " + parseInt(c));
+console.log("parseInt of d is " + parseInt(d));
 
 // calculation using perseFloat()
-console.log( "parseFloat of a is " + parseFloat( a ) );
-console.log( "parseFloat of b is " + parseFloat( b ) );
-console.log( "parseFloat of c is " + parseFloat( c ) );
-console.log( "parseFloat of d is " + parseFloat( d ) );
+console.log("parseFloat of a is " + parseFloat(a));
+console.log("parseFloat of b is " + parseFloat(b));
+console.log("parseFloat of c is " + parseFloat(c));
+console.log("parseFloat of d is " + parseFloat(d));
 
 // calculation using Number()
-console.log( "Number for a is " + Number( a ) );
-console.log( "Number for a is " + Number( b ) );
-console.log( "Number for a is " + Number( c ) );
-console.log( "Number for a is " + Number( d ) );
+console.log("Number for a is " + Number(a));
+console.log("Number for a is " + Number(b));
+console.log("Number for a is " + Number(c));
+console.log("Number for a is " + Number(d));
 
 // calculation using +
-console.log( "+ for a is " + +a );
-console.log( "+ for b is " + +b );
-console.log( "+ for c is " + +c );
-console.log( "+ for d is " + +d );
+console.log("+ for a is " + +a);
+console.log("+ for b is " + +b);
+console.log("+ for c is " + +c);
+console.log("+ for d is " + +d);
 
 // Running
 /*

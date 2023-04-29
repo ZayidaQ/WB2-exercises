@@ -14,11 +14,11 @@ let width = 25
 
 // calculation
 let roomDimention = length * width;
-let boxNeeded = ( roomDimention / 12 ) * 1.1;
+let boxNeeded = (roomDimention / 12) * 1.1;
 
 // output
 console.log(
-    "you will need " + Math.ceil( boxNeeded ) + " amount of boxes"
+    "you will need " + Math.ceil(boxNeeded) + " amount of boxes"
 );
 
 // Running

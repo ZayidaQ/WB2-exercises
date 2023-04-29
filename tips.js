@@ -13,13 +13,13 @@ var tip = 12.00;
 var totalDue = foodCost + tax + tip;
 
 //output
-console.log( "the total due is $" + totalDue );
+console.log("the total due is $" + totalDue);
 
 // more complicated output
 console.log(
     "food cost is $" + foodCost + " and the tax is $" + tax);
-console.log ("Tip is $" + tip.toFixed( 2 ) );
-console.log( "Total Due is $" + totalDue );
+console.log ("Tip is $" + tip.toFixed(2));
+console.log("Total Due is $" + totalDue);
 
 
 // ---------- <<<< starting templet >>>> ---------- //
