@@ -2,7 +2,8 @@
 
     Author: Zhayida Haishan
 
-    Description: page 92
+    Description: This JS calculates the federal tax based on the values of annual
+    gross income and a filing status.
 
 */
 
@@ -23,7 +24,7 @@ let overTimeRate = hourlyPay * 1.5;
 
 if (hoursWorked > 40){
     let overTimeHour = hoursWorked - 40;
-    grossPay = (payRate * 40) + (overTimeHour * overTimeRate);
+    grossPay = (hourlyPay * 40) + (overTimeHour * overTimeRate);
 }
 
 let annualGrossPay = grossPay * 52;
@@ -62,50 +63,17 @@ if (personsStatus == "joint"){
     }
 }
 
-
-if (annualGrossPay >= 75000){
-    taxRate = 0.20;
-}
-else if (annualGrossPay >= 25000) {
-    taxRate = 0.15
-}
-else if (annualGrossPay >= 12000) {
-    taxRate = 0.10
-}
-else if (annualGrossPay < 12000) {
-    taxRate = 0.05
-}
-
 let taxWithheldWeek = grossPay * taxRate;
-let taxWithheldAnnual = annualGrossIncome * taxRate;
+let taxWithheldAnnual = annualGrossPay * taxRate;
 let netPayWeek = grossPay - taxWithheldWeek;
-let netPayYear = annualGrossIncome - taxWithheldAnnual;
+let netPayYear = annualGrossPay - taxWithheldAnnual;
 
-// output
+personsStatus = personsStatus.charAt(0).toUpperCase() + personsStatus.slice(1)
 
-// console.log()
+// Output
+console.log(`You worked $${hoursWorked.toFixed(2)} hours this period`);
+console.log(`Because you earn $${hourlyPay.toFixed(2)} per hour, your gross pay is $${grossPay.toFixed(2)}`);
+console.log(`Your filing status is ${personsStatus} `);
+console.log(`Your tax withholdings this period is $${taxWithheldWeek.toFixed(2)}`);
+console.log(`Your net pay is $${netPayWeek.toFixed(2)}`);
 
-// "use sprict";
-
-// // input
-// let payRate = 17.30;
-// let hoursWorked = 45;
-
-// // calculation
-// if (hoursWorked > 40) {
-//     let grossPay = 17.30 * 40;
-//     let overTime = hoursWorked - 5;
-//     let overTimePay = (payRate * 1.5) * overTime;
-//     grossPay = grossPay + overTimePay;
-
-//     // output
-//     console.log(
-//       "We worked longer then 40 hours, so the grosspay is $" + grossPay.toFixed(2));
-// }
-
-// else {
-//     grossPay =  hoursWorked * payRate;
-
-//     // output
-//     console.log("The gross pay is $" + grossPay.toFixed(2));
-// }
