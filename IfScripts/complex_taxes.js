@@ -32,13 +32,48 @@ let annualGrossPay = grossPay * 52;
 let taxRate;
 
 // calculation
-if (personsStatus == "single"){
-    if (annualGrossPay < 12000){
-        taxRate = 0.05;
+if (personsStatus == "single") {
+    if (annualGrossPay >= 75000){
+        taxRate = 0.20;
     }
-    else if (annualGrossPay < 25000) {
+    else if (annualGrossPay >= 25000) {
+        taxRate = 0.15
+    }
+    else if (annualGrossPay >= 12000) {
         taxRate = 0.10
     }
+    else if (annualGrossPay < 12000) {
+        taxRate = 0.05
+    }
+}
+
+if (personsStatus == "joint"){
+    if (annualGrossPay >= 75000){
+        taxRate = 0.20;
+    }
+    else if (annualGrossPay >= 25000) {
+        taxRate = 0.11
+    }
+    else if (annualGrossPay >= 12000) {
+        taxRate = 0.06
+    }
+    else if (annualGrossPay < 12000) {
+        taxRate = 0.00
+    }
+}
+
+
+if (annualGrossPay >= 75000){
+    taxRate = 0.20;
+}
+else if (annualGrossPay >= 25000) {
+    taxRate = 0.15
+}
+else if (annualGrossPay >= 12000) {
+    taxRate = 0.10
+}
+else if (annualGrossPay < 12000) {
+    taxRate = 0.05
 }
 
 let taxWithheldWeek = grossPay * taxRate;
