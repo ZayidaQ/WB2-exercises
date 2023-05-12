@@ -12,20 +12,42 @@
 "use sprict";
 
 // input
-let a = 5;
-let b = 10;
-let c = 15;
+let a = 1;
+let b = 2;
+let c = 5;
 
 let maxValue;
-
-
-
+let minValue;
 
 // calculation
-if ( outputValue == "Max" ){
-    console.log(a)
+if ( a > b && a > c && b > c ){
+    maxValue = a;
+    minValue = c;
 }
-else 
+else if (a > b && a > c && c > b){
+    maxValue = a;
+    minValue = b;
+}
+else if ( b > c && b > a && c > a ){
+    maxValue = b;
+    minValue = a;
+}
+else if ( b > c && b > a && a > c ){
+    maxValue = b;
+    minValue = c;
+}
+else if ( c > a && c > b && a > b ){
+    maxValue = c;
+    minValue = b;
+}
+else if ( c > a && c > b && b > a ){
+    maxValue = c;
+    minValue = a;
+}
+else {
+    console.log( "undifined" )
+};
+
 
 // output
-console.log()
+console.log(`The max value is ${maxValue} and the minimum value is ${minValue}`)
