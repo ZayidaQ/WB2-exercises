@@ -12,9 +12,9 @@
 "use sprict";
 
 // input
-let a = 1;
-let b = 2;
-let c = 5;
+let a = 3;
+let b = 1;
+let c = 2;
 
 let maxValue;
 let minValue;
