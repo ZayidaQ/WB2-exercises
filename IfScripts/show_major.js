@@ -38,6 +38,10 @@ else if (studentMajor == "MKT"){
     nameOfMajor = "Marketing";
     departmentLocation = "Westly Hall, Room 310";
 }
+else {
+    nameOfMajor = "<unknown>";
+    departmentLocation = "<unknown>";
+};
 
 // output
 console.log(`Student: ${studentName}`)
