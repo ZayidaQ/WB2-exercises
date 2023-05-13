@@ -77,3 +77,13 @@ console.log(`Your filing status is ${personsStatus} `);
 console.log(`Your tax withholdings this period is $${taxWithheldWeek.toFixed(2)}`);
 console.log(`Your net pay is $${netPayWeek.toFixed(2)}`);
 
+// Running
+/*
+
+    You worked $45.00 hours this period
+    Because you earn $10.00 per hour, your gross pay is $475.00
+    Your filing status is Single 
+    Your tax withholdings this period is $47.50
+    Your net pay is $427.50
+
+*/

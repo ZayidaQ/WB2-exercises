@@ -41,4 +41,10 @@ console.log("Total Due is $" + totalDue);
 // calculation
 
 // output
-console.log()
+
+// Running
+/*
+
+    -
+
+*/

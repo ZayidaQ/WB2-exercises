@@ -51,3 +51,10 @@ else {
 
 // output
 console.log(`The max value is ${maxValue} and the minimum value is ${minValue}`)
+
+// Running
+/*
+
+    The max value is 3 and the minimum value is 1
+
+*/
